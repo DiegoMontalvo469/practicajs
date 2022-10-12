@@ -1,1 +1,1 @@
-let horaInicio
+let horaInicio = prompt
