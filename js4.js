@@ -1,0 +1,3 @@
+function divisores(numero){
+
+}
