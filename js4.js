@@ -9,7 +9,7 @@ function divisores(numero){
     return total;
 }
 
-console.log("Total divisores", divisores(32));
+
 
 const divisoresV2 = function(numero){
     let total = 0;
@@ -21,3 +21,16 @@ const divisoresV2 = function(numero){
     }
     return total;
 };
+
+function f1(){
+
+}
+
+function f2(){
+
+}
+
+ejemplo(f1,f2,f3)
+
+console.log("Total divisores", divisores(32));
+console.log("Total divisores", divisoresV2(32));
