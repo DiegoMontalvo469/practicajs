@@ -49,6 +49,10 @@ const divisoresV3 = (numero) => {
     return total;
 };
 
+function calcular(){
+    console.log("Tkm")
+}
+
 console.log("Total divisores", divisores(32));
 console.log("Total divisores", divisoresV2(32));
 console.log("Total divisores", divisoresV3(32));
