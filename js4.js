@@ -8,3 +8,5 @@ function divisores(numero){
     }
     return total;
 }
+
+console.log("Total divisores", divisores(32));
