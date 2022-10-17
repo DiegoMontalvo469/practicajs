@@ -50,9 +50,20 @@ const divisoresV3 = (numero) => {
 };
 
 function calcular(){
-    console.log("Tkm")
+    let numero = 
+    parseInt(document.getElementById("numero").value)
+    /* console.log(numero); */
+    let resultado = 
+    document.getElementById("resultado");
+
+    /* resultado.value = numero; */
+    resultado.value = divisores(numero);
+
+    
 }
 
 console.log("Total divisores", divisores(32));
 console.log("Total divisores", divisoresV2(32));
 console.log("Total divisores", divisoresV3(32));
+
+/* Imagen */
