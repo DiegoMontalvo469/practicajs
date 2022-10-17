@@ -1,3 +1,9 @@
+/*
+function nombre(){}
+const nombre = function(){};
+const nombre = () => {};
+*/
+
 function divisores(numero){
     let total = 0;
 
