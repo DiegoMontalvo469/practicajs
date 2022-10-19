@@ -1,15 +1,25 @@
-function calcular(){
-    let numero = 
-    parseInt(document.getElementById("numero").value)
-    console.log(numero);
-    let resultado = 
-    document.getElementById("resultado");
-
-    resultado.value = numero;
-    resultado.value = divisores(numero);
-}
-
-function operation(op, n1, n2)
+function op(op, n1, n2) {
     let res = 0
-        switch
-            case1
+        switch (numero) {
+            case "+":
+                res = n1 + n2
+                break;
+            case "-":
+                res = n1 - n2
+                break;
+            case "*":
+                res = n1 * n2
+                break;
+            case "/":
+                res = n1 / n2
+                break;
+            default:
+            break;}
+    
+    }
+
+    return res
+
+function calcular(){
+    let num1 = parseInt(document.getElementById)
+}
