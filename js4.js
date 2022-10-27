@@ -1,9 +1,3 @@
-/*
-function nombre(){}
-const nombre = function(){};
-const nombre = () => {};
-*/
-
 function divisores(numero){
     let total = 0;
 
@@ -14,8 +8,6 @@ function divisores(numero){
     }
     return total;
 }
-
-
 
 const divisoresV2 = function(numero){
     let total = 0;
@@ -28,16 +20,6 @@ const divisoresV2 = function(numero){
     return total;
 };
 
-function f1(){
-
-}
-
-function f2(){
-
-}
-
-/* Llevar acordeón */
-
 const divisoresV3 = (numero) => {
     let total = 0;
 
@@ -48,22 +30,17 @@ const divisoresV3 = (numero) => {
     }
     return total;
 };
-
 function calcular(){
-    let numero = 
+    let numero =
     parseInt(document.getElementById("numero").value)
-    /* console.log(numero); */
-    let resultado = 
-    document.getElementById("resultado");
 
-    /* resultado.value = numero; */
+    let resultado =
+    document.getElementById("result");
+
     resultado.value = divisores(numero);
 
-    
 }
 
 console.log("Total divisores", divisores(32));
 console.log("Total divisores", divisoresV2(32));
 console.log("Total divisores", divisoresV3(32));
-
-/* Imagen */
